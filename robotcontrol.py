@@ -2655,8 +2655,8 @@ def test_rsm():
     try:
 
         # 链接服务器
-        #ip = 'localhost'
-        ip = '192.168.10.88'
+        ip = 'localhost'
+        #ip = '192.168.10.88'
         port = 8899
         result = robot.connect(ip, port)
         
@@ -2737,8 +2737,8 @@ class GetRobotWaypointProcess(Process):
 
         try:
             # 链接服务器
-            #ip = 'localhost'
-            ip = '192.168.65.131'
+            ip = 'localhost'
+            #ip = '192.168.65.131'
             port = 8899
             result = robot.connect(ip, port)
 
@@ -2808,8 +2808,8 @@ def test_process_demo():
         print("process started.")
 
         # 链接服务器
-        #ip = 'localhost'
-        ip = '192.168.65.131'
+        ip = 'localhost'
+        #ip = '192.168.65.131'
         port = 8899
         result = robot.connect(ip, port)
 
