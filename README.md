@@ -2,6 +2,7 @@
 ```
 git clone https://github.com/MIOS9/aubo_python_sdk.git
 ```
+Python SDK 安装之前需要确保 ROS Noetic 正确安装：<https://github.com/MIOS9/aubo_robot>
 
 ## setup 1. 安装 anaconda
 ### 1.1 下载 anaconda  
