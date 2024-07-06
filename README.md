@@ -1,5 +1,3 @@
-# AUBO_i5_SDK_Fixed
-
 # AUBO Python SDK 安装指南 
 ## setup 1. 安装 anaconda
 ### 1.1 下载 anaconda  
