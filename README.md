@@ -1,4 +1,8 @@
 # AUBO Python SDK 安装指南 
+```
+git clone 
+```
+
 ## setup 1. 安装 anaconda
 ### 1.1 下载 anaconda  
 Anaconda下载地址(清华镜像)：<https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/> 
@@ -26,3 +30,4 @@ alias setconda='. ~/anaconda3/bin/activate'
 setconda
 conda create -n pyaubo python=3.11
 ```
+### 2.2 克隆本仓库
