@@ -36,3 +36,8 @@ cd ~/aubo_python_sdk
 cp ~/aubo_python_sdk/dependants/* ~/anaconda3/envs/pyaubo/lib/python3.11/site-packages
 conda activate pyaubo
 ```
+
+### 2.3 测试SDK
+```
+python3 robotcontrol.py
+```
