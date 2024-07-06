@@ -1,6 +1,6 @@
 # AUBO Python SDK 安装指南 
 ```
-git clone 
+git clone https://github.com/MIOS9/aubo_python_sdk.git
 ```
 
 ## setup 1. 安装 anaconda
@@ -30,4 +30,9 @@ alias setconda='. ~/anaconda3/bin/activate'
 setconda
 conda create -n pyaubo python=3.11
 ```
-### 2.2 克隆本仓库
+### 2.2 将python依赖库复制到相应的环境中
+```
+cd ~/aubo_python_sdk
+cp ~/aubo_python_sdk/dependants/* ~/anaconda3/envs/pyaubo/lib/python3.11/site-packages
+conda activate pyaubo
+```
