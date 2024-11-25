@@ -1,6 +1,6 @@
 # AUBO Python SDK 安装指南 
 ```
-git clone https://github.com/MIOS9/aubo_python_sdk.git
+git clone https://github.com/ipc-robot/aubo_python_sdk.git
 ```
 Python SDK 安装之前需要确保 ROS Noetic 正确安装：<https://github.com/MIOS9/aubo_robot>
 
